@@ -1,0 +1,32 @@
+.background{
+    background-size: 100% 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+}
+button{
+    position: absolute;
+    top:55%;
+    left: 15%;
+}
+.AirFlot{
+    width: 40%;
+    position: absolute;
+    top:25%;
+    left: -60%;
+    animation-name: airflot;
+    animation-duration: 20s;
+}
+@keyframes airflot{
+    from{
+        left: -60%;
+    }
+    to{
+        left: 160%;
+        display: none;
+    }
+}
+.AirFlot img{
+    width: 100%;
+    cursor: pointer;
+}
